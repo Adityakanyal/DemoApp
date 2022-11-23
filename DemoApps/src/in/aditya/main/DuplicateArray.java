@@ -7,12 +7,14 @@ public class DuplicateArray {
 		Scanner sc =new Scanner(System.in);
 		System.out.println("Enter the length");
 		int size=sc.nextInt();
+		System.out.println("Enter the elements");
 		int arr[]=new int[size];
 		for(int i=0;i<size;i++)
 		{
 			arr[i]=sc.nextInt();
 		}
 		Arrays.sort(arr);
+		System.out.println("Answer");
 		int temp=-1;
 		for(int i=0;i<size-1;i++)
 		{
