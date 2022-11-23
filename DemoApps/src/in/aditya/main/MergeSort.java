@@ -10,11 +10,11 @@ public class MergeSort {
 		sort(arr,l,m);
 		sort(arr,m+1,r);
 		
-		partition(arr,l,m,r);
+		merge(arr,l,m,r);
 		}
 	}
 
-	public void partition(int arr[],int l,int m,int r)
+	public void merge(int arr[],int l,int m,int r)
 	{
 		int l1=m-l+1;
 		int r1=r-m;
